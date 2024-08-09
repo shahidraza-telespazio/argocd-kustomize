@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/shahidraza-telespazio/argocd-demo  # Replace with your repository URL
+    repoURL: https://github.com/shahidraza-telespazio/argocd-kustomize  # Replace with your repository URL
     targetRevision: HEAD  # Specify branch or tag, e.g., 'main'
     path: overlays/dev  # Path to the Kustomize overlay directory
   destination:
